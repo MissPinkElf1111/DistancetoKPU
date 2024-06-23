@@ -39,7 +39,7 @@ function initMap() {
                 position: userLocation,
                 map: map,
                 title: "My Location",
-				// The "Current" label represents the current coordinates
+		// The "Current" label represents the current coordinates
                 label: "Current"
             });
         }, () => {
