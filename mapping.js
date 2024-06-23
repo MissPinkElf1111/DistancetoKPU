@@ -13,7 +13,7 @@ function initMap() {
         position: kpuSurreyLibrary,
         map: map,
         title: "KPU Surrey Library",
-		// The "Destination" label represents KPU Surrey library
+	// The "Destination" label represents KPU Surrey library
         label: "Destination"
     });
 
