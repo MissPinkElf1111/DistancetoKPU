@@ -71,12 +71,12 @@ function calculateAndDisplayRoute(directionsService, directionsRenderer, userLoc
                 directionsRenderer.setDirections(response);
 
                 const route = response.routes[0];
-				// Distance in kilometers
+		// Distance in kilometers
                 const distance = route.legs[0].distance.value / 1000;
-				// The result message
+		// The result message
                 document.getElementById('distance').innerText = `Distance to KPU Surrey Library: ${distance.toFixed(2)} km`;
             } else {
-				// Show the error message
+		// Show the error message
                 window.alert('Directions request failed due to ' + status);
             }
         }
