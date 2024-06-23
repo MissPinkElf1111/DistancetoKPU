@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"><! Add a responsive design>
+		<title>KPU Surrey Library Distance</title> <! The title of the website>
+		<! Set the size of the map window>
+		<style>
+			#map {
+				height: 500px;
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 align="center">Location to KPU Surrey Library</h1> <! The title of the page>
+		<! The container of Google Map API>
+		<div id="map"></div>
+		<! Display the result of distance>
+		<p id="distance" align="center"></p>
+		
+		<! Load the Google Map API>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYLXAYO5W-SxKLXh3If4HPIzGg0bjZBr4"></script>
+		<script src="mapping.js"></script> <! Load the JavaScript file to label the locations and calculate the distance>
+	</body>
+</html>
